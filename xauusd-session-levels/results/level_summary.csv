@@ -1,0 +1,4 @@
+period,levels,tested,untested,censored,crossed_outside_sessions_first
+P1,360,216,142,2,38
+P2,30,16,11,3,5
+P3,60,30,27,3,6
