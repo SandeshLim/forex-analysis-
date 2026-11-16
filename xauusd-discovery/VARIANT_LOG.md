@@ -12,3 +12,15 @@
   - Drawn target missed by 0.04 (low 3832.46 at 05:58); later stopped at 14:35.
   - Context: the spike swept prior intra-session swing highs 3877.26 (02:55) / 3877.45 (04:00) inside a sequence of lower highs; it was 'away' from completed levels.
   - New exploratory lead to log, not test yet: sweeps of prior intra-session swing highs/lows (equal highs) inside a swing downtrend/uptrend (F4 extension).
+
+## 2026-11-16 — Exploratory example: New York peak and re-entry short (user-drawn)
+
+Source: OANDA XAUUSD 1m from the TradingView chart; times UTC = UK. Not a test; one hand-picked example, chosen after the fact.
+
+- Context: the earlier NY swing high was 3885.45 (14:36), set by a strong bull bar at 14:35 (range 5.0×, body +3.3×, volume 3.2× median). The London high 3876.84 had already been broken. No completed session level sat at 3885–3889 (Asia high 3900.56, Fri NY low 3867.67).
+- 14:48 peak bar: H 3888.95 swept the 14:36 high by 3.5, closed 3886.36 with an upper wick of 1.3×; volume 2.0×. Up bodies were shrinking: +3.3× (14:35), +1.8× (14:47), +1.6× (14:48), +0.7× (14:50).
+- 14:49 and 14:50 were range-inside the peak bar. 14:51 bear expansion (body −1.6×) broke the peak bar low (3883.03), so the F1 bearish sequence printed at 14:51.
+- 14:50–14:53 highs were 3887.48 / 3887.47 / 3887.48 / 3887.43: four failures at the same price under the peak. Volume eased to 1.2–1.4× on the drift to 3875.93 (15:00).
+- Re-entry: the 15:01 bull bar (+2.0×, vol 2.5×) and 15:02 bar reached 3885.95, a lower high under both 3887.4 and the peak, then closed 3881.48 (upper wick). 15:03–15:10 printed lower highs on 2.0–2.6× volume.
+- Drawn short: entry 3885.17, stop 3889.129 (R 3.96), target 3846.17 (9.85R). Filled in the 15:02 bar (a limit at 3885.17 would also have filled at 14:50). Stop never touched. Worst move against 3885.95 = 0.20R. 2R 15:07, 3R 15:10, 5R 15:23, 7R 16:00. NY low 3856.32 (16:37) = 7.3R by the 17:00 NY close. Target 9.85R touched 18:07, after the NY session; low 3841.21 at 18:10 (MFE 11.1R). No costs deducted.
+- Recurring motif (same as 16 Nov Asia): the sweep of an earlier intra-session swing high, then a lower high that fails, within a fading up-move. Still an n=2 observation from one day; to be defined point-in-time and counted in the F1/F4 families before any claim.
