@@ -1,14 +1,17 @@
 # XAUUSD candle sequences at meaningful levels — study 2 report (16 Nov 2026)
 
-## Plain-English summary
-- **No dependable, tradeable signature was found.** Your sequence (strong candle into a known high or low → small contained opposite candle → opposite expansion → retest) and its mirror were tested on 9 years of 1-minute gold data. They lost money after realistic costs on the untouched 2024–2026 test period, and did so at every recognition stage (small candle, expansion, retest).
-- Average level touches do **not** reverse. Across 12,995 development-period touches of completed session, day, week and month levels, the 1-hour move away from the level averaged +0.01 volatility units (95% CI −0.10 to +0.12).
-- A few relationships showed up in the development data: deep penetration beyond a level, touches during quiet hours (17:00–24:00 UK), and trend-aligned bullish sequences at lows. They are **gross** effects of roughly 0.05–0.15 R per trade. Spread and slippage (0.23–0.53 R) consumed them. Executable versions were negative in development, validation and test.
-- Your drawn examples (16.5R and 15.8R) were real *maximum moves*, not achievable fixed-target trades. Both targets sat 0.17–0.31 points beyond the day's actual low and were never reached. The 13:30 short only became a recognisable 5-minute sequence 7 points after the drawn entry.
-- This rejects the specific definitions tested. It does not rule out other definitions (see "Remaining questions").
+## Plain-English summary (corrected 16 Nov 2026 00:50)
+- **Scope.** Four specific rule families were rejected; the broader research question is **not** settled. All tests used 5-minute recognition at *completed* session/day/week/month levels.
+- **Your sequence at completed levels.** It lost money after costs on 2024–2026 TEST at all three recognition stages: small candle −0.15R, expansion −0.18R, retest −0.17R (CI −0.33..0.00). On VAL the retest stage was indistinguishable from zero (−0.04R, CI −0.24..+0.16). The stage-1 and stage-3 VAL/TEST rows were run after TEST was opened, to complete the table.
+- **Not tested:** 1-minute sequences, developing session extremes, historical 1h/4h candle zones, swing changes, later retests. See `STUDY3_PLAN.md` and the coverage matrix in `COVERAGE.md`.
+- **Level touches.** On average they do not reverse (DEV: +0.01 mr at 1h, CI −0.10..+0.12).
+- **Drawn trades.**
+  - The 03:38 Asia short matches a 1-minute sequence (entry 03:41, 0.37 points worse). Targets set before entry (2R/3R/5R; the developing Asia low, +14R) were reached.
+  - The 13:34 and 14:45 drawn entries sit ahead of any defined trigger; the only earlier 1-minute triggers were stopped.
+  - The exact drawn 16.5R/15.8R targets were missed by 0.31/0.17 points. That is a separate question from whether a trade was plannable. See `results/drawn_trades.md`.
 
 ## 1. Your screenshots
-No NIFTY/BANKNIFTY screenshots were attached; all five are XAUUSD (OANDA, TradingView).
+All five are OANDA XAUUSD captures from 15 Nov 2026. Four show Fri 13 Nov; the 21:29:18 capture shows a Bar Replay of Thu 12 Nov. No NIFTY/BANKNIFTY screenshots were attached.
 
 | Screenshot | Clearly visible | Uncertain | What would resolve it |
 |---|---|---|---|

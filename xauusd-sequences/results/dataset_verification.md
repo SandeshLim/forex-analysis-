@@ -1,0 +1,15 @@
+# Exness XAUUSDm 1m dataset verification (16 Nov 2026)
+- **Provenance.** github.com/sherwynjoel/xauusd-historical-data @c6aa574 (one author, 20 Aug 2026). Fetched with MetaTrader5 `copy_rates_range` for symbol XAUUSDm by the included script. Parquet sha256 74b277a01f0655622b1b871dc9eee0d178a56c3b6593b2f32a8f03276f8c47a7. That the broker is Exness is the publisher's statement and is not independently verifiable.
+- **Timestamps.** UTC bar-open. The minimum-activity hour (daily break) is 21 UTC Mar–Oct and 22 UTC Nov–Feb in every year 2017–2026, which is 17:00 New York. A broker-server clock would put it at 23–01.
+- **Overlap with OANDA.**
+  - 480 Wednesday 4h closes, 2017-05 to 2026-08. At zero lag, OANDA − Exness = +0.117 mean, 0.114 SD, max 1.52 (Mar 2020).
+  - Shifted ±1 minute: SD 0.56 / 1.07. Shifted ±1 hour: SD 4.3 / 5.0.
+  - Annual means range from +0.09 to +0.21.
+  - 5m on 5 Aug 2026: +0.12 mean, 0.16 SD (275 bars).
+- **Price units and spread.** Prices have 3 decimals, so an MT5 point is 0.001. Spread values cluster at 160/200/260/300 points (0.16–0.30 USD). The +0.12 offset is about half a typical spread, consistent with an Exness bid series against a mid-like OANDA chart. Zero spreads occur only in 2017 (1.4% of bars).
+- **Missing bars.**
+  - 0 duplicates and 0 OHLC violations.
+  - 237 gaps of 2–60 min (906 minutes in total).
+  - 78 intra-week gaps longer than 75 min, mostly Christmas/New Year. Exceptions: 2018-02-02 12:59 UTC to the weekend, and 2021-02-15 (318 min).
+  - 0.6–0.7% of 5m bars per year contain fewer than five 1m bars.
+- **Volume.** tick_volume is a count of price updates; real_volume is 0 for all 3,276,127 rows.

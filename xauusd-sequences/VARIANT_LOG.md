@@ -29,3 +29,13 @@ VAL expR: C1V2 −0.138 (CI −0.287..+0.017, n 209), C2V3 −0.132 (−0.383..+
 
 ## 2026-11-16 01:20 — TEST (run once) — study closed
 TEST expR: C1V2 −0.182 (−0.310..−0.055, n 254), C2V3 −0.179 (−0.360..+0.023, n 113), C3V2 −0.176 (−0.312..−0.032, n 724), C4V1 −0.128 (−0.232..−0.028, n 1,216). None passes. Per the stopping rule, no further variants are run on 2017–2026 data. Post-TEST descriptive checks (year-by-year sign, trap rates, post-trap moves) are reported as leads only.
+
+## 2026-11-16 00:35 — post-TEST completeness runs (requested; not a selection step)
+The report's opening claim ("lost money at every recognition stage") rested on TEST results for stage 2 only; stages 1 and 3 had DEV results only. C1V1 (entry at B2 close) and C1V3 (entry at held retest) are now run on VAL and TEST, unchanged, to complete the table. TEST is already spent, so these runs are descriptive confirmation, not out-of-sample selection.
+
+## 2026-11-16 00:50 — corrections after review
+- C1V1 and C1V3 were run on VAL and TEST (see the 00:35 entry). Report narrowed: all three stages negative on TEST; the retest stage is ≈ 0 on VAL.
+- Screenshot dates corrected: captures from 15 Nov; four show 13 Nov, one shows a Bar Replay of 12 Nov.
+- Drawn trades re-analysed with executable entries and targets defined before entry (`results/drawn_trades.md`).
+- Dataset verification (`results/dataset_verification.md`).
+- The coverage matrix (`COVERAGE.md`) and the study 3 plan (`../xauusd-discovery/PLAN.md`) were added.
