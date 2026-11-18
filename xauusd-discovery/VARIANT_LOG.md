@@ -24,3 +24,19 @@ Source: OANDA XAUUSD 1m from the TradingView chart; times UTC = UK. Not a test; 
 - Re-entry: the 15:01 bull bar (+2.0×, vol 2.5×) and 15:02 bar reached 3885.95, a lower high under both 3887.4 and the peak, then closed 3881.48 (upper wick). 15:03–15:10 printed lower highs on 2.0–2.6× volume.
 - Drawn short: entry 3885.17, stop 3889.129 (R 3.96), target 3846.17 (9.85R). Filled in the 15:02 bar (a limit at 3885.17 would also have filled at 14:50). Stop never touched. Worst move against 3885.95 = 0.20R. 2R 15:07, 3R 15:10, 5R 15:23, 7R 16:00. NY low 3856.32 (16:37) = 7.3R by the 17:00 NY close. Target 9.85R touched 18:07, after the NY session; low 3841.21 at 18:10 (MFE 11.1R). No costs deducted.
 - Recurring motif (same as 16 Nov Asia): the sweep of an earlier intra-session swing high, then a lower high that fails, within a fading up-move. Still an n=2 observation from one day; to be defined point-in-time and counted in the F1/F4 families before any claim.
+
+## 2026-11-18 — 17 Nov scan for the user's "sweep → fail → lower-high re-entry" shape
+
+Feed: FX_IDC:XAUUSD 1m (the chart's symbol on 18 Nov; earlier work used OANDA, differences ~0.03 at the 16 Nov NY high). 17 Nov 00:00–21:00 UTC, 1,260 bars, no gaps. Costs not deducted. Exploratory; one day.
+
+Rule fixed before looking at results (both directions, per session Asia/London/NY):
+1. Sweep: a bar trades beyond the developing session extreme that has stood ≥15 bars.
+2. Peak: the extreme keeps updating while new extremes print within 15 bars.
+3. E1: first close beyond the far side of the peak candle (below its low for shorts). Stop = peak ± 0.2.
+4. Re-entry E2: within 60 bars, price retraces ≥50% of the move from the peak without reaching it; first close beyond the far side of the retrace-extreme bar.
+5. Outcome to 21:00 UTC: stop first vs 2R/5R; MFE/MAE in R.
+
+Result: 11 setups (6 short, 5 long). E1 reached 2R before stop 3/11, 5R 1/11. E2 occurred 6 times; 1/6 reached 2R and 5R.
+- Only clean winner: Asia short, peak 3887.35 at 05:35 (Asia high, 1.6 below the 16 Nov NY high 3888.98). E1 3882.39 05:36 (R 5.16, 5R 10:11). Lower high 3885.94 05:46, E2 3880.76 05:52 (R 6.79, 2R 08:04, 5R 13:37; NY low 3836.50 13:40). Stopped 15:42. A limit at 3885.00 (user style) filled 05:46, R 2.55, MFE 19R at 13:40 before the 15:42 stop.
+- Missed by the rule (found by eye afterwards — hindsight risk): NY 15:43 spike to 3890.98 swept the 16 Nov NY high 3888.98 and the 17 Nov Asia high; 15:44 closed below the peak-candle low; 15:45 lower high 3889.84; 15:46 close 3881.15 (stop 3891.18, R 10.03). Reached 4.0R by 20:01 (low 3840.90); continued to 3757.20 on 18 Nov 08:21. Missed because the sweep came <15 bars after the prior 15:39 peak.
+- Losers dominated: the rule as written is not an edge on this day; the two good examples sat at prior-session highs (16 Nov NY high), suggesting the level matters more than the candle shape. Next: require the sweep/stall to be at a completed prior-session or prior-day level and count over many days.
