@@ -52,3 +52,7 @@ Level tag (decided before reading results): peak within 1.5× median 1m range (5
 - Asia long (mirror): 05:16 low 3514.6 swept the 03:24 low 3517.4; 05:18 close above the 05:16 high, entry 3521.5, R 7.1; floor 3515.0 at 05:30/05:32/05:40, 3514.6 at 05:43; breakout 05:45–05:47; 2R 05:47, 5R 06:06, 06:10 high 3565.8, London high 3595.3 at 10:44 (~10R). Not at an earlier-session level.
 - London double top 3594.7/3594.9/3595.3 (10:39–10:44) dropped to 3574.6 by 11:59; ~2–3R; the rule's first trigger at 10:40 was stopped at 10:43.
 - Running pattern note: the winners on 16, 17 and 20 Nov all show repeated failures at one price (equal highs/lows or a floor/ceiling) before the break. Candidate feature for the formal test.
+
+## 2026-11-21 — User's live trade, 18–19 Nov (user's broker screenshots)
+
+Sell 0.01 XAUUSD at 3778.11, opened 18 Nov 14:30 UK (broker clock UK+2), stop 3787.74 (risk 9.63). Setup: New York 13:51 push to 3790.60 (OANDA) through the London high 3786.63, failure, lower highs 3787.5 (14:06) and ~3779.9 (14:29). Phone screenshot later on 19 Nov (broker axis ~17:25, so ~15:25 UK) shows bid 3685.81 and +70.23 GBP: ~92 points ≈ 9.6R against the original risk. The R came from holding through a strong downtrend, not from a tight stop. One trade; it does not test the setup.
