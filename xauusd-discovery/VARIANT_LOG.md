@@ -40,3 +40,15 @@ Result: 11 setups (6 short, 5 long). E1 reached 2R before stop 3/11, 5R 1/11. E2
 - Only clean winner: Asia short, peak 3887.35 at 05:35 (Asia high, 1.6 below the 16 Nov NY high 3888.98). E1 3882.39 05:36 (R 5.16, 5R 10:11). Lower high 3885.94 05:46, E2 3880.76 05:52 (R 6.79, 2R 08:04, 5R 13:37; NY low 3836.50 13:40). Stopped 15:42. A limit at 3885.00 (user style) filled 05:46, R 2.55, MFE 19R at 13:40 before the 15:42 stop.
 - Missed by the rule (found by eye afterwards — hindsight risk): NY 15:43 spike to 3890.98 swept the 16 Nov NY high 3888.98 and the 17 Nov Asia high; 15:44 closed below the peak-candle low; 15:45 lower high 3889.84; 15:46 close 3881.15 (stop 3891.18, R 10.03). Reached 4.0R by 20:01 (low 3840.90); continued to 3757.20 on 18 Nov 08:21. Missed because the sweep came <15 bars after the prior 15:39 peak.
 - Losers dominated: the rule as written is not an edge on this day; the two good examples sat at prior-session highs (16 Nov NY high), suggesting the level matters more than the candle shape. Next: require the sweep/stall to be at a completed prior-session or prior-day level and count over many days.
+
+## 2026-11-21 — 20 Nov scan (same rule as the 17 Nov scan, plus a level tag)
+
+Feed: OANDA:XAUUSD 1m, 20 Nov 00:00–21:00 UTC, no gaps. Very volatile, falling day (median 1m range 3.33 vs 2.2 on 17 Nov). Costs not deducted. Exploratory.
+
+Level tag (decided before reading results): peak within 1.5× median 1m range (5.0) of a completed earlier-session high/low from 19–20 Nov. Result: 16 rule setups, none tagged.
+
+- E1 reached 2R before stop on 9 of 16 setups and 5R on 3 (two of the three are the same Asia floor). A trending, wide-range day gives room, so 2R hits are not comparable with 17 Nov.
+- NY short (best fit to the user's shape): 15:00 spike to 3586.1 through equal NY highs 3581.3 (13:06) / 3581.5 (14:20), 9.2 below the London high 3595.3. 15:01 closed 3575.6 below the peak-candle low 3578.6. Lower highs 3576.2 (15:04), 3574.4 (15:08). R 10.7; low 3526.7 at 15:27 (4.6R); 5R 17:48; day low 3503.0 at 18:47 (6.7R). Caveat: 15:00 UK = 10:00 ET.
+- Asia long (mirror): 05:16 low 3514.6 swept the 03:24 low 3517.4; 05:18 close above the 05:16 high, entry 3521.5, R 7.1; floor 3515.0 at 05:30/05:32/05:40, 3514.6 at 05:43; breakout 05:45–05:47; 2R 05:47, 5R 06:06, 06:10 high 3565.8, London high 3595.3 at 10:44 (~10R). Not at an earlier-session level.
+- London double top 3594.7/3594.9/3595.3 (10:39–10:44) dropped to 3574.6 by 11:59; ~2–3R; the rule's first trigger at 10:40 was stopped at 10:43.
+- Running pattern note: the winners on 16, 17 and 20 Nov all show repeated failures at one price (equal highs/lows or a floor/ceiling) before the break. Candidate feature for the formal test.
