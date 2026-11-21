@@ -56,3 +56,13 @@ Level tag (decided before reading results): peak within 1.5× median 1m range (5
 ## 2026-11-21 — User's live trade, 18–19 Nov (user's broker screenshots)
 
 Sell 0.01 XAUUSD at 3778.11, opened 18 Nov 14:30 UK (broker clock UK+2), stop 3787.74 (risk 9.63). Setup: New York 13:51 push to 3790.60 (OANDA) through the London high 3786.63, failure, lower highs 3787.5 (14:06) and ~3779.9 (14:29). Phone screenshot later on 19 Nov (broker axis ~17:25, so ~15:25 UK) shows bid 3685.81 and +70.23 GBP: ~92 points ≈ 9.6R against the original risk. The R came from holding through a strong downtrend, not from a tight stop. One trade; it does not test the setup.
+
+## 2026-11-21 — 18 Nov scan (same rule and level tag as 17/20 Nov)
+
+Feed: OANDA:XAUUSD 1m, 18 Nov 00:00–21:00 UTC, no gaps; median 1m range 2.13, level tolerance 3.2. Costs not deducted. Exploratory.
+
+- 11 setups; E1 reached 2R before stop on 6, 5R on 2. Only one setup was level-tagged (NY short 13:26 near the 18 Nov Asia low 3776.0): stopped at 13:31.
+- London short (rule): peak 3786.7 at 09:41 with highs 3786.4 (09:42) and 3786.3 (09:43) at the same price; 09:43 closed 3783.3 below the 09:41 low 3784.3 (E1, R 3.5); lower high 3784.2 at 09:51 (limit-style risk ~2.7); 2R 10:01, 5R 11:09, low 3743.0 at 12:56 ≈ 11R (E1) / ≈15R (limit). Not at an earlier-session level.
+- NY long (rule): lows 3746.1–3746.6 (12:50–12:54) swept by 12:56 low 3743.0; 13:00 close 3747.5 above the 12:56 high; R 4.7; 5R 13:12; 3790.6 at 13:51 ≈ 9R.
+- NY short at 13:51 (the user's live trade) was missed by the rule: the push from 3743 to 3790.6 never let a high stand 15 bars (same failure as 17 Nov 15:43). Rule change to consider: allow a sweep of a completed earlier-session level (here the London high 3786.68) regardless of the 15-bar condition.
+- Asia longs against a falling market: mostly 2R then stopped.
