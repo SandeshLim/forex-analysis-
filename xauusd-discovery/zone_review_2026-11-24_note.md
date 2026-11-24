@@ -1,0 +1,2 @@
+# 24 Nov 08:46 UK update (OANDA 1m)
+B1 3600.5–3614.4 entered 08:27; low 3607.5 at 08:29 (swept the 1H higher low 3611.5 by 4.0, no 1H close below); 08:30 1m closed 3613.4 above the 08:29 high with ~2.5x volume (mirror confirmation; buy 3613.4 / stop 3607.3, R 6.1). Price 3628.9 at 08:46 (~2.5R). Counter to the 4H downtrend, so outside the stated plan; logged as an observation. Next: N1 sell 3637.3–3640.8, invalid on a 15m close above 3640.8.
