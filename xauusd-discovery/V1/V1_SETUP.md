@@ -19,7 +19,7 @@ Feed: OANDA XAUUSD on TradingView; UK time (broker MT5 clock = UK + 2 h).
 - With the 4H trend = grade A.
 
 ## 25 Nov example result
-Entry ≈3501.0 at 17:38, stop 3495.8. After entry: low 3501.5 (17:45), high 3540.87 (18:17) ≈ +7.6R; 3518.2 reached 17:45 (≈3.3R). Context: day before Thanksgiving, US stocks closed 18:00 UK, thin trading, short covering.
+Entry ≈3501.0 at 17:38, stop 3495.8. After entry: low 3501.5 (17:45), high 3540.87 (18:17) ≈ +7.6R; 3518.2 reached 17:54 (≈3.3R). Context: day before Thanksgiving, US stocks closed 18:00 UK, thin trading, short covering.
 
 ## Open question for the user
 Entry price: limit at range top (+0.5 used here) or another level — confirm.
