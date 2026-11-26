@@ -11,3 +11,7 @@ Invalidation: a 15m close beyond a zone's far edge cancels it. Entry needs 1m co
 - S1 sell 3600.5–3603.4: touched 02:36 (3601.0); no 1m close below the 02:36 low (3594.5) before price pushed to 3607.2 at 02:42; the 02:30 15m candle closed 3605.1 → S1 cancelled. No trade under the written rules.
 - Failed-break pattern (hypothesis from 24 Nov, not a rule): highs 3605.9–3607.2 (02:41–02:44); 02:45 closed back at 3599.4; lower highs 3603.3/3603.3/3603.1 at the zone top (02:46–02:48); 02:49 close 3594.9 below the 02:48 low → hypothetical sell 3594.9, stop 3603.9 (R 9.0) → low 3575.0 at 03:15 ≈ 2.2R; 3574.9 at 04:00. Second forward example after 24 Nov 12:53.
 - Price 3598.5 at 04:46, back under the cancelled S1; next sell zone S2 3627.9–3632.1.
+
+## 04:41–04:51 ceiling at 3600 (compared by the user with 25 Nov 14:59–15:14)
+1m highs 3600.0, 3599.6, 3599.9, 3600.0, 3599.8, 3599.8, 3599.9, 3599.7, 3599.2 (04:41–04:49) under the cancelled S1 (3600.5) and below the 02:46–02:48 retest highs (3603.3). 04:45 closed 3598.5 below the 04:44 low (3599.0); 04:51 closed 3594.9 below the ceiling range. Hypothetical sell 3598.5 / stop 3600.5 (R 2.0): low 3592.5 by 05:10 ≈ 3R so far. Volume 105–770 per minute (thin holiday trade) vs 1,500–3,000 on 25 Nov.
+Not a T1: 4H down but 1H not down, and the ceiling is not at the previous 1H candle's midpoint (03:00 candle H3591.3 L3575.0, mid 3583.2; price was above its high).
