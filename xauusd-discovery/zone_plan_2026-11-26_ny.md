@@ -8,3 +8,8 @@ Sell (method: broken support + first retest after the break, plus session levels
 - S3 3600.5–3607.2: today's Asia zone extended to the spike highs (4th visit, weaker).
 Buy (conditional, against 4H): B1 3551.3–3553.2 (Asia low 01:00, London low 10:46 — double bottom). Deeper: 3534.9–3537.7.
 Targets for sells: 3552.1 (day low), 3537.7–3534.9, 3503/3500.
+
+## Update 13:53 UK
+Chart tab had switched to FX_IDC:XAUUSD, hiding the zones; switched back to OANDA:XAUUSD.
+12:00–13:53: range 3562.7–3575.5 (median 1m volume 442, holiday). S2 3575.0–3579.3 touched at 12:00 (3575.0) and 13:00 (3575.5) and rejected both times (13:00 fell to 3563.0); London high 3577.2 and Asia mid 3579.3 not reached.
+S1 3561.5–3570.7 turned into the middle of a range (wicks above it, no 15m close above 3570.7) → replaced on the chart by "NY range 3562.3–3575.5 (no trade inside)" in grey.
