@@ -15,3 +15,8 @@ Invalidation: a 15m close beyond a zone's far edge cancels it. Entry needs 1m co
 ## 04:41–04:51 ceiling at 3600 (compared by the user with 25 Nov 14:59–15:14)
 1m highs 3600.0, 3599.6, 3599.9, 3600.0, 3599.8, 3599.8, 3599.9, 3599.7, 3599.2 (04:41–04:49) under the cancelled S1 (3600.5) and below the 02:46–02:48 retest highs (3603.3). 04:45 closed 3598.5 below the 04:44 low (3599.0); 04:51 closed 3594.9 below the ceiling range. Hypothetical sell 3598.5 / stop 3600.5 (R 2.0): low 3592.5 by 05:10 ≈ 3R so far. Volume 105–770 per minute (thin holiday trade) vs 1,500–3,000 on 25 Nov.
 Not a T1: 4H down but 1H not down, and the ceiling is not at the previous 1H candle's midpoint (03:00 candle H3591.3 L3575.0, mid 3583.2; price was above its high).
+
+## Update 11:26 UK
+Third test of S1: 05:20–05:33 highs 3600.5 / 3600.6 / 3600.1, spike 3605.1 at 05:34; the 05:30 15m candle closed 3587.1. Fell to 3552.1 at 10:46 (−53 from 3605.1).
+S1 summary: three rejections (02:42 3607.2 → 3575.0; 04:41–04:49 ceiling 3600.0 → 3590.7; 05:34 3605.1 → 3552.1). Wicks pierced the zone top twice (3607.2, 3605.1), so a stop 0.5 above the zone was hit twice; the area held on 15m closes except the 02:30 candle (3605.1).
+S1 origin: 3600.5 = 23 Nov 08:15 London low (bottom of the 23 Nov 1H buy base, B1 3600.5–3614.4), broken by the 24 Nov 15:15 15m close 3591.2; 3603.4 = high of that 15:15 candle (first retest after the break); 24 Nov NY midpoint 3602.87 and round 3600 inside; untouched from 24 Nov 15:30 until 26 Nov 02:36.
